@@ -48,7 +48,7 @@ bairros_unicos = carregar_bairros()
 # INTERFACE DO USUÁRIO (Inputs na Barra Lateral)
 # ---------------------------------------------------------------------
 
-st.title("🏙️ Estimador de Aluguel de Imóveis (v1)")
+st.title("🏙️ Estimador de Aluguel de Imóveis")
 st.markdown("Preencha os dados abaixo para estimar o valor total do aluguel (R² de **0.878**).")
 
 st.sidebar.header("Preencha os dados do imóvel:")
@@ -122,3 +122,4 @@ if st.sidebar.button("Estimar Valor", type="primary"):
 
 else:
     st.info("Preencha os dados ao lado e clique em 'Estimar Valor'.")
+
